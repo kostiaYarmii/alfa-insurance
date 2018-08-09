@@ -1,0 +1,36 @@
+.btn {
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn--red {
+  background-color: red;
+}
+
+.table-block {
+  padding: 0 100px;
+}
+
+.header {
+  font-size: 30px;
+  text-align: center;
+}
+
+.table th, .table td {
+  padding: 10px;
+}
+
+.table td:not(:first-child) {
+  text-align: center;
+}
+
+.table th:not(:first-child) {
+  background-color: grey;
+  border-radius: 5px;
+  color: white;
+}
+
+.table tbody tr:nth-child(2n) {
+  background-color: grey;
+}
